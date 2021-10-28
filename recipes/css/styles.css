@@ -1,4 +1,23 @@
-img {
-    height: 500px;
+#chef-photo {
+    height: 400px;
     width: auto;
+}
+
+#iskender-photo {
+    width: 600px;
+    height: auto;
+}
+
+#kunefe-photo {
+    height: 400px;
+    width: auto;
+}
+
+#yaprak-sarma-photo {
+    width: 600px;
+    height: auto;
+}
+
+.text-upgrade {
+    font-family: Verdana, Arial, sans-serif;
 }
