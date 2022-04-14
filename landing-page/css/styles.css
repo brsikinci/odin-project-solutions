@@ -6,6 +6,7 @@ body {
 header {
     background-color: #1F2937;
 }
+
 .header-top-bar {
     display: flex;
 }
@@ -61,10 +62,20 @@ header {
 }
 
 .header-sign-up-button {
+    background-color: #3882F6;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: bold;
     box-sizing: border-box;
-    padding: 0.5% 2%;
+    padding: 0.8% 3.5%;
+    border-radius: 10px;
+    border: 0px;
+}
+
+.header-image-container {
+    flex-grow: 1;
 }
 
 .header-image {
-    flex-grow: 1;
+    max-width: 100%;
 }
