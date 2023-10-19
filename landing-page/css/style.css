@@ -5,11 +5,13 @@ body {
     font-family: Roboto, sans-serif;
 }
 
+/* Header styling */
+
 .header {
     display: flex;
     justify-content: space-between;
     background-color: #1f2937;
-    padding: 16px 0px;
+    padding-top: 30px;
 }
 
 .logo-text {
@@ -41,4 +43,57 @@ ul {
 a {
     text-decoration: none;
     color: white;
+}
+
+
+/* Hero container styling */
+
+.hero-container {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    gap: 48px;
+    padding: 120px 0px;
+}
+
+.hero-text-container {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.hero-main-text {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-secondary-text,
+.hero-button {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.hero-button {
+    background-color: #3882f6;
+    border: 0px;
+    border-radius: 8px;
+    width: 110px;
+    padding: 10px 0px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.hero-image {
+    width: 700px;
+    height: auto;
+}
+
+h1 {
+    margin: 0px;
+}
+
+p {
+    margin: 0px;
 }
