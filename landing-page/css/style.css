@@ -219,3 +219,18 @@ p {
 button {
     cursor: pointer;
 }
+
+/* Footer styling */
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.footer-text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
