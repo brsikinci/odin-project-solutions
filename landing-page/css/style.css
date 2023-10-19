@@ -46,7 +46,7 @@ a {
 }
 
 
-/* Hero container styling */
+/* Hero section styling */
 
 .hero-section {
     display: flex;
@@ -97,4 +97,45 @@ h2 {
 
 p {
     margin: 0px;
+}
+
+/* Info section styling */
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    padding: 80px 0px 170px 0px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.info-container {
+    display: flex;
+    gap: 48px;
+    width: 1100px;
+}
+
+.info-placeholder {
+    height: 225px;
+    width: 225px;
+    border: 5px solid #3882f6;
+    border-radius: 25px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.text {
+    text-align: center;
+    font-size: 18px;
 }
