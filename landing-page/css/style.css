@@ -91,7 +91,8 @@ a {
 }
 
 h1,
-h2 {
+h2,
+h3 {
     margin: 0px;
 }
 
@@ -166,4 +167,51 @@ p {
     font-size: 24px;
     font-weight: 700;
     align-self: flex-end;
+}
+
+/* Call to action section styling */
+
+.action-section {
+    display: flex;
+    justify-content: center;
+    padding: 150px 0px;
+}
+
+.action-container {
+    display: flex;
+    align-items: center;
+    gap: 350px;
+    background-color: #3882f6;
+    padding: 85px 150px;
+    border-radius: 15px;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.action-header,
+.action-button {
+    color: #f9faf8;
+}
+
+.action-header {
+    font-size: 24px;
+}
+
+.action-prompt {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.action-button {
+    border-radius: 8px;
+    height: 40px;
+    width: 110px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #3882f6;
+    border: #f9faf8 solid 2px;
 }
