@@ -215,3 +215,7 @@ p {
     background-color: #3882f6;
     border: #f9faf8 solid 2px;
 }
+
+button {
+    cursor: pointer;
+}
