@@ -48,7 +48,7 @@ a {
 
 /* Hero container styling */
 
-.hero-container {
+.hero-section {
     display: flex;
     background-color: #1f2937;
     justify-content: center;
@@ -56,7 +56,7 @@ a {
     padding: 120px 0px;
 }
 
-.hero-text-container {
+.hero-container {
     width: 450px;
     display: flex;
     flex-direction: column;
@@ -90,7 +90,8 @@ a {
     height: auto;
 }
 
-h1 {
+h1,
+h2 {
     margin: 0px;
 }
 
